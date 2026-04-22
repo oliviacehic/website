@@ -175,7 +175,7 @@ export default function Home() {
                <img 
                  src={podcastImage}
                  alt="Busy Glowing Up" 
-                 className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 min-h-[450px]"
+                 className="w-full h-full object-cover object-left transition-transform duration-1000 group-hover:scale-105 min-h-[450px]"
                  referrerPolicy="no-referrer"
                />
                <div className="absolute inset-0 bg-brand-ink/5 group-hover:bg-transparent transition-colors duration-500" />
