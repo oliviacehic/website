@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 import heroImage from '../assets/hero-image.jpg';
 import podcastImage from '../assets/podcast-image.png';
-import naludaLogo from '../assets/naluda-magazine.webp';
+import naludaLogo from '../assets/naluda-magazine.avif';
 import canvasRebelLogo from '../assets/canvas-rebel.png';
 import influencerLogo from '../assets/influencer-magazine.png';
 import contactImage from '../assets/contact-image.jpg';
