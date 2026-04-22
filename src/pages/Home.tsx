@@ -116,7 +116,7 @@ export default function Home() {
               Call in the love you were <br className="hidden md:block" /> always meant for
             </h2>
             <p className="text-brand-ink/60 mb-12 max-w-2xl mx-auto leading-relaxed text-base md:text-lg italic">
-              "Learn the exact formula thousands of my clients have used to call in the love and relationships of their dreams."
+              Learn the exact formula thousands of my clients have used to call in the love and relationships of their dreams.
             </p>
             <a 
               href="https://stan.store/livmerima"
