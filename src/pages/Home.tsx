@@ -7,6 +7,13 @@ import { motion } from 'motion/react';
 import { Mail, Instagram, Music, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
+import heroImage from '../assets/hero-image.jpg';
+import podcastImage from '../assets/podcast-image.png';
+import naludaLogo from '../assets/naluda-magazine.avif';
+import canvasRebelLogo from '../assets/canvas-rebel.png';
+import influencerLogo from '../assets/influencer-magazine.png';
+import contactImage from '../assets/contact-image.jpg';
+
 export default function Home() {
   return (
     <div className="pt-20">
@@ -52,7 +59,7 @@ export default function Home() {
              <div className="absolute inset-0 border-[0.5px] border-brand-ink/10 rounded-2xl transform rotate-3 translate-x-4 translate-y-4" />
              <div className="absolute inset-0 bg-brand-brown/5 rounded-2xl" />
              <img
-               src="/hero-image.jpg"
+               src={heroImage}
                alt="Liv Merima"
                className="relative z-10 w-full h-full object-cover object-top rounded-2xl shadow-2xl"
                referrerPolicy="no-referrer"
@@ -68,18 +75,18 @@ export default function Home() {
             <span className="text-[10px] md:text-xs font-sans tracking-[0.4em] text-brand-ink/40 uppercase font-bold text-center">As Seen In</span>
             <div className="flex flex-wrap items-center justify-center gap-10 md:gap-24 w-full">
               <div className="flex-shrink-0 flex items-center justify-center">
-                <img src="/naluda-magazine.avif" alt="Naluda Magazine" className="h-12 md:h-16 object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                <img src={naludaLogo} alt="Naluda Magazine" className="h-12 md:h-16 object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
               </div>
               <div className="flex-shrink-0 flex items-center justify-center">
-                <img src="/canvas-rebel.png" alt="Canvas Rebel" className="h-14 md:h-20 object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
+                <img src={canvasRebelLogo} alt="Canvas Rebel" className="h-14 md:h-20 object-contain brightness-0 invert opacity-70 hover:opacity-100 transition-opacity" referrerPolicy="no-referrer" />
               </div>
               <div className="flex-shrink-0 flex items-center justify-center">
                 {/* One-element Dual Color Logo using Linear Gradient + Mask */}
                 <div 
                   className="h-24 md:h-40 w-48 md:w-80 opacity-80 hover:opacity-100 transition-opacity"
                   style={{ 
-                    WebkitMaskImage: 'url("/influencer-magazine.png")',
-                    maskImage: 'url("/influencer-magazine.png")',
+                    WebkitMaskImage: `url("${influencerLogo}")`,
+                    maskImage: `url("${influencerLogo}")`,
                     WebkitMaskSize: 'contain',
                     maskSize: 'contain',
                     WebkitMaskRepeat: 'no-repeat',
@@ -166,7 +173,7 @@ export default function Home() {
           <div className="bg-white rounded-[2.5rem] overflow-hidden shadow-2xl shadow-brand-ink/5 flex flex-col lg:flex-row items-stretch">
             <div className="w-full lg:w-[42%] relative group overflow-hidden">
                <img 
-                 src="/podcast-image.png" 
+                 src={podcastImage}
                  alt="Busy Glowing Up" 
                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105 min-h-[450px]"
                  referrerPolicy="no-referrer"
@@ -258,7 +265,7 @@ export default function Home() {
                  className="relative z-10 w-full max-w-[300px] aspect-[3/4] bg-white shadow-2xl rounded-2xl p-3 md:p-5 rotate-6 transition-all duration-700"
                >
                   <img 
-                    src="/contact-image.jpg" 
+                    src={contactImage}
                     alt="Liv Merima" 
                     className="w-full h-full object-cover rounded-xl shadow-inner" 
                     referrerPolicy="no-referrer"
