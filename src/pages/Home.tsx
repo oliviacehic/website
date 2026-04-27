@@ -194,7 +194,7 @@ export default function Home() {
                 <span className="text-[10px] font-sans font-bold tracking-[0.4em] uppercase text-brand-brown opacity-60 mb-10">Join the Conversation</span>
                 <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif mb-8 leading-[1.1] tracking-tight">The Busy Glowing Up Podcast</h2>
                 <p className="text-brand-ink/70 mb-12 leading-relaxed text-base md:text-lg max-w-lg">
-                  With over 300k+ downloads and streams and over 500+ reviews, your one-stop shop for all things personal development and relationships.
+                  With over 350k+ downloads and streams and over 500+ reviews, your one-stop shop for all things personal development and relationships.
                 </p>
                 
                 <div className="flex flex-wrap items-center justify-center lg:justify-start gap-8 md:gap-12 w-full">
