@@ -242,7 +242,7 @@ export default function Home() {
             <div className="w-full md:w-3/5 p-8 md:p-16 lg:p-24 z-10 text-center md:text-left">
                <span className="inline-block px-4 py-1.5 bg-brand-brown/10 text-brand-brown uppercase tracking-[0.3em] font-bold text-[10px] mb-8 rounded-full">Get in Touch</span>
                <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif leading-tight mb-12">
-                 Ready to begin your <br className="hidden lg:block" /> private transformation?
+                 For direct inquiries, media features, and partnerships, please email:
                </h2>
                <div className="flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8 group">
                   <a 
